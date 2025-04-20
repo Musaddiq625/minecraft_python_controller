@@ -114,7 +114,6 @@ pyinstaller --onefile -c 'main.py'
 ## ⚠️ Minecraft Settings
 
 - Make sure Minecraft is running and focused on your PC.
-
 - Go to Options > Controls > Mouse Settings, and **enable Raw Input** to ensure the game accepts movement commands correctly.
 
 ---
