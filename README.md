@@ -23,7 +23,7 @@ Use this Flutter app as your game controller.
 ### How It Works
 
 1. Install the Flutter app on your Android device.
-2. Run the Python backend (see below)—it will display your **Local IP address**.
+2. Run the Python backend (see below) - it will display your **Local IP address**.
 3. Enter that IP address into the Flutter app’s settings.
 4. Connect and press 'Start playing'
 4. Press buttons or use the joystick in the app to send commands to your PC.
@@ -89,7 +89,7 @@ pyinstaller --onefile -c 'main.py'
 
 ---
 
-## ⚠️ Troubleshooting
+## 🛠️ Troubleshooting
 
 - **No input registered?**  
   - Run the `.exe` or `python main.py` as **Administrator**.  
@@ -103,11 +103,29 @@ pyinstaller --onefile -c 'main.py'
 
 ---
 
+
+## 🔐 Security
+
+- This app communicates over your local network using UDP and does not use any encryption or authentication.
+- **Make sure both devices are on a trusted network.** Avoid using public Wi-Fi for security reasons.
+
+---
+
+## ⚠️ Minecraft Settings
+
+- Make sure Minecraft is running and focused on your PC.
+
+- Go to Options > Controls > Mouse Settings, and **enable Raw Input** to ensure the game accepts movement commands correctly.
+
+---
+
 ## 🧑‍💻 Author & Links
 
 - **Author:** [Musaddiq Ahmed Khan (Musaddiq625)](https://github.com/Musaddiq625)  
 - **Flutter App:** https://github.com/Musaddiq625/minecraft_controller.git  
 - **Python Backend:** https://github.com/Musaddiq625/minecraft_flutter_controller.git  
 
-Made with ❤️ by Musaddiq625 — feel free to open issues or submit PRs!
+This is just a basic proof of concept to spark your creativity! If you can improve or extend it, feel free to fork and submit a PR.
+
+Made with ❤️ by Musaddiq625 — contributions welcome!
 
